@@ -14,7 +14,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=LuCI
   SUBMENU:=3. Applications
   TITLE:=luci-app-autotimeset
-  DEPENDS:=+luci
+  DEPENDS:=+luci +luci-lib-ipkg
   DESCRIPTION:=LuCI support for Scheduled Time setting
   PKGARCH:=all
 endef
